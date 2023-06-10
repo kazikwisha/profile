@@ -81,6 +81,6 @@ Clear browser cache if you don't see changes
 
 ### Note.
 
-You don't need to switch to `main` branch since this command in (`package.json`) will deploy [^1] to  main
+[^1]: You don't need to switch to `main` branch since this command in (`package.json`) will deploy to  main
 
 `"deploy": "gatsby build --prefix-paths && gh-pages -d public -b main",`
