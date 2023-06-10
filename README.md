@@ -57,9 +57,7 @@ $ npm run serve
 ```shell
 $ git status
 
-$ git add .
-
-$ git commit -m "updates"
+$ git add . &&  git commit -m "updates"
 
 $ git push -u origin develop
 
@@ -81,6 +79,4 @@ Clear browser cache if you don't see changes
 
 ### Note.
 
-[^1]: You don't need to switch to `main` branch since this command in (`package.json`) will deploy to  main
-
-`"deploy": "gatsby build --prefix-paths && gh-pages -d public -b main",`
+[^1]: You don't need to switch to `main` branch since this command in (`package.json`) will deploy to  main `"deploy": "gatsby build --prefix-paths && gh-pages -d public -b main",`
